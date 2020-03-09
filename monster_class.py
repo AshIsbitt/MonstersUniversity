@@ -1,5 +1,5 @@
 class Monster():
-    def __init__(self, f_name, l_name, skill):
+    def __init__(self, f_name, l_name, skill = []):
         self.__f_name = f_name
         self.__l_name = l_name
         self.__skill = skill
@@ -16,4 +16,3 @@ class Monster():
             return item
 
     # Setters
-    
