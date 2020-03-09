@@ -56,4 +56,5 @@ while True:
             item_index += 1
             t.sleep(.5)
 
+    print("-----------")
     print(" ")
