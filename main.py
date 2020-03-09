@@ -34,18 +34,28 @@ while True:
     if option == 0:
         print("Thank you, goodbye")
         sys.exit()
+
     elif option == 1:
-        student1 = Student("Mike", "Wazowski")
+        f_name = input("Enter first name: ")
+        l_name = input("Enter last name: ")
+        student1 = Student(f_name, l_name)
         print("Succesful. {} {} added.".format(student1.get_f_name(), student1.get_l_name()))
+
     elif option == 2:
+        f_name = input("Enter first name: ")
+        l_name = input("Enter last name: ")
         teacher1 = Teacher("Filipe", "Paiva", t_id=1)
         print("Successful, {} {} added.".format(teacher1.get_f_name(), teacher1.get_l_name()))
+
     elif option == 4:
-        ws_Devops = Monster_Workshop("Devops 54", 14, teacher1.get_f_name())
+        ws_id = input("Enter class name: ")
+        workshop1 = Monster_Workshop(ws_id, 14, teacher1.get_f_name())
         print("Successful. {} class created with {} teacher".format(ws_Devops.get_subject(), ws_Devops.get_teacher()))
+
     elif option == 5:
         entry = input("Enter new skill: ")
         print(student1.set_skill(entry.capitalize()))
+
     elif option == 6:
         print("\nUser skills:")
 

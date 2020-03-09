@@ -30,3 +30,18 @@ As a receptionist of the university, I should be able to
 list all of the student skills
 
 ```
+
+# Initialisation
+To initialise and download this repo, please run
+
+```
+git clone https://github.com/AshIsbitt/MonstersUniversity.git
+```
+
+and run
+
+```python
+main()
+```
+
+with 
