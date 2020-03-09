@@ -12,7 +12,9 @@ class Monster():
         return self.__l_name
 
     def get_skills(self):
-        for item in self.__skill:
-            return item
+        return self.__skill
 
     # Setters
+    def set_skill(self, entry):
+        self.__skill.append(entry)
+        return "New skill: " + entry
