@@ -4,3 +4,7 @@ class Student(Monster):
 
     def __init__(self, s_id):
         self.__student_id = s_id
+
+    # Getters
+    def get_student_id(self):
+        return self.__student_id
