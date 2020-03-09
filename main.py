@@ -10,7 +10,7 @@ pw = input("Please enter password: ")
 
 if not pw == "qwert":
     print("Error")
-    sys.quit()
+    sys.exit()
 
 while True:
     print("Enter an option:")
@@ -25,12 +25,13 @@ while True:
         print("Incorrect entry.")
         continue
 
-
-    if option == 1:
+    if option == 0:
+        print("Thank you, come again")
+        sys.exit()
+    elif option == 1:
         student1 = Student("Mike", "Wazowski")
         print("Succesful. {} {} added.".format(student1.get_f_name(), student1.get_l_name()))
     elif option == 2:
         teacher1 = Teacher("Filipe", "Paiva", t_id=1)
         print("Successful, {} {} added.".format(teacher1.get_f_name(), teacher1.get_l_name()))
-    elif option == 3:
 
