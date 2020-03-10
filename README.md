@@ -38,13 +38,7 @@ Download this repo from Github with the below command.
 git clone https://github.com/AshIsbitt/MonstersUniversity.git
 ```
 
-and run
-
-```python
-main()
-```
-
-to run the program from the correct directory.
+and run `main.py` to run the program from the correct directory.
 
 Note that the hard-coded password is currently set to  `q`
 

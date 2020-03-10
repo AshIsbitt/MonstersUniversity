@@ -1,5 +1,5 @@
 class Monster():
-    def __init__(self, f_name, l_name, skill = []):
+    def __init__(self, f_name, l_name, skill=[]):
         self.__f_name = f_name
         self.__l_name = l_name
         self.__skill = skill
@@ -18,3 +18,7 @@ class Monster():
     def set_skill(self, entry):
         self.__skill.append(entry)
         return "New skill: " + entry
+
+
+m = Monster("Alex", "Smith")
+print(m.__l_name)

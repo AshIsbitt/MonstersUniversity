@@ -43,7 +43,8 @@ while True:
         f_name = input("Enter first name: ")
         l_name = input("Enter last name: ")
         student_list.append(Student(f_name, l_name))
-        print("Successful. {} {} added.".format(student_list[-1].get_f_name(), student_list[-1].get_l_name()))
+        print("Successful. {} {} added.".format(student_list[-1].get_f_name(),
+                                                student_list[-1].get_l_name()))
 
     elif option == 2:
         f_name = input("Enter first name: ")

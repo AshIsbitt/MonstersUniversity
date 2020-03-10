@@ -15,3 +15,6 @@ class Monster_Workshop:
 
     def get_teacher(self):
         return self.__teacher
+
+
+#TODO append students to list of attendees
