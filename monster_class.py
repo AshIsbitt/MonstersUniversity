@@ -11,7 +11,7 @@ class Monster():
     def get_l_name(self):
         return self.__l_name
 
-    def get_skills(self):
+    def get_skill(self):
         return self.__skill
 
     # Setters

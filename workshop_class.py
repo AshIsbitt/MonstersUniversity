@@ -15,4 +15,3 @@ class Monster_Workshop:
 
     def get_teacher(self):
         return self.__teacher
-

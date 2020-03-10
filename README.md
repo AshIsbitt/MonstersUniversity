@@ -32,7 +32,7 @@ list all of the student skills
 ```
 
 # Initialisation
-To initialise and download this repo, please run
+Download this repo from Github with the below command. 
 
 ```
 git clone https://github.com/AshIsbitt/MonstersUniversity.git
@@ -44,4 +44,8 @@ and run
 main()
 ```
 
-with 
+to run the program from the correct directory.
+
+Note that the hard-coded password is currently set to  `q`
+
+However, this can be changed at line 8 in `main.py`
